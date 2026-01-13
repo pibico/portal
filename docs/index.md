@@ -3,5 +3,5 @@
 This is the central documentation portal for our OSS projects.
 
 ## Main Sections
-- [Projects](projects/)
+- [Projects](projects/pibicut/)
 - [About Us](about.md)

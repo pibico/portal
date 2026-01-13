@@ -1,6 +1,6 @@
-# pibiCut
+# PibiCut
 
-Welcome to the pibiCut documentation.
+Welcome to the PibiCut documentation.
 
 ## Contents
 - [Project Guide](guide.md)

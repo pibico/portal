@@ -18,7 +18,7 @@ nav:
   - Home: index.md
   - About pibiCo: about.md
   - Projects:
-      - pibicut:
+      - PibiCut:
           - Inicio: projects/pibicut/index.md
           - Guía: projects/pibicut/guide.md
 
