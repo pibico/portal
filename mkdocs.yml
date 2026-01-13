@@ -1,6 +1,6 @@
 site_name: Documentation portal
 site_description: the central documentation portal for our OSS projects
-site_url: https://pibico.github.io/
+site_url: https://pibico.github.io/portal/
 
 theme:
   name: material
