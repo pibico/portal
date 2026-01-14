@@ -1,9 +1,5 @@
-<div class="hero">
+# Welcome to the pibiCo Documentation Portal 
 
-# Welcome to the pibiCo Documentation Portal
-
-
-</div>
 
 This is the central documentation portal for our OSS projects.
 
