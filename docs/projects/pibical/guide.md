@@ -12,21 +12,21 @@ PibiCal enables seamless, real-time synchronization of calendar events between y
 
 ## 📋 Table of Contents
 
-- [Features](#-features)
-- [Version Compatibility](#-version-compatibility)
-- [Requirements](#-requirements)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [Architecture](#-architecture)
-- [Code Structure](#-code-structure)
-- [API Reference](#-api-reference)
-- [Performance](#-performance)
-- [Troubleshooting](#-troubleshooting)
-- [Development](#-development)
-- [Recent Updates](#-recent-updates-v20)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Features](#features)
+- [Version Compatibility](#version-compatibility)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Code Structure](#code-structure)
+- [API Reference](#api-reference)
+- [Performance](#performance)
+- [Troubleshooting](#troubleshooting)
+- [Development](#development)
+- [Recent Updates](#recent-updates-v20)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
