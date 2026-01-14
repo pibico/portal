@@ -5,7 +5,7 @@ site_url: https://pibico.github.io/portal/
 theme:
   name: material
   logo: assets/images/logo.png
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.ico
   language: es
   features:
     - navigation.sections      # Sidebar organizado por secciones
