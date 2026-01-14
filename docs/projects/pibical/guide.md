@@ -325,7 +325,7 @@ Recipients receive email with .ics attachment they can import to their calendar.
 
 ### System Overview
 
-```
+```text
 ┌─────────────────────────────────────────────────────────┐
 │                  BIDIRECTIONAL SYNC                     │
 ├─────────────────────────────────────────────────────────┤
