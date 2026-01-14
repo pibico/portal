@@ -12,7 +12,6 @@ theme:
     primary: black
     accent: light blue
   features:
-    - navigation.sections      # Sidebar organizado por secciones
     - navigation.tabs          # Navegación tipo pestañas
     - navigation.tabs.sticky   # Tabs visibles siempre
     - navigation.path          # Incluye navegación de migas de pan
