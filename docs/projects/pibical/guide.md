@@ -325,7 +325,7 @@ Recipients receive email with .ics attachment they can import to their calendar.
 
 ### System Overview
 
-```text
+<pre>
 ┌─────────────────────────────────────────────────────────┐
 │                  BIDIRECTIONAL SYNC                     │
 ├─────────────────────────────────────────────────────────┤
@@ -350,7 +350,7 @@ Recipients receive email with .ics attachment they can import to their calendar.
 │  └──────────────┘              └──────────────────┘     │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
-```
+</pre>
 
 ### Sync Flow (ERPNext → CalDAV)
 
