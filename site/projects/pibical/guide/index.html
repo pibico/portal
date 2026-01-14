@@ -1,0 +1,3328 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="pibiCo documentation portal for OSS projects">
+      
+      
+      
+        <link rel="canonical" href="https://pibico.github.io/portal/projects/pibical/guide/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Guide - pibiCo - Documentation portal</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pibical" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.pibico.es" title="pibiCo - Documentation portal" class="md-header__button md-logo" aria-label="pibiCo - Documentation portal" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            pibiCo - Documentation portal
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  About pibiCo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../pibicut/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.pibico.es" title="pibiCo - Documentation portal" class="md-nav__button md-logo" aria-label="pibiCo - Documentation portal" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    pibiCo - Documentation portal
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About pibiCo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projects
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PibiCut
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PibiCut
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibicut/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibicut/guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PibiCal
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PibiCal
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✨ Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✨ Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronization-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronization Details
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📦 Version Compatibility
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔧 Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔧 Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#system-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standard Installation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-frappe-v13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Frappe v13
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uninstalling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uninstalling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-configure-caldav-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Configure CalDAV Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-enable-sync-for-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Enable Sync for Events
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-verify-sync-is-running" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Verify Sync is Running
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sync-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sync Frequency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date-range-for-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Date Range for Sync
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📖 Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📖 Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-synchronized-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a Synchronized Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronization-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronization Behavior
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Synchronization Behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#event-created-in-frappeerpnext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📅 Event Created in Frappe/ERPNext
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-created-in-nextcloudcaldav" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📅 Event Created in NextCloud/CalDAV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-modified-in-frappeerpnext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✏️ Event Modified in Frappe/ERPNext
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-modified-in-nextcloudcaldav" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✏️ Event Modified in NextCloud/CalDAV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-deleted-in-frappeerpnext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗑️ Event Deleted in Frappe/ERPNext
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-deleted-in-nextcloudcaldav" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗑️ Event Deleted in NextCloud/CalDAV
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-event-invitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Event Invitations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏗️ Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏗️ Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#system-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync-flow-erpnext-caldav" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sync Flow (ERPNext → CalDAV)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync-flow-caldav-erpnext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sync Flow (CalDAV → ERPNext)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loop-prevention-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Loop Prevention Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📂 Code Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📂 Code Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#directory-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directory Layout
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Files
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pibicalhookspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        pibical/hooks.py
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pibicalpibicalcustompy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        pibical/pibical/custom.py
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pibicalfixturescustom_fieldjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        pibical/fixtures/custom_field.json
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔌 API Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔌 API Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whitelisted-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Whitelisted Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Whitelisted Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get_calendarnuser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_calendar(nuser)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync_caldav_event_by_userdoc-methodnone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sync_caldav_event_by_user(doc, method=None)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove_caldav_eventdoc-methodnone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        remove_caldav_event(doc, method=None)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#send_event_invitationsevent_name-recipients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        send_event_invitations(event_name, recipients)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#background-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background Jobs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background Jobs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sync_outside_caldav" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sync_outside_caldav()
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚡ Performance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚡ Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#optimization-improvements-v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimization Improvements (v2.0)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimizations-implemented" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Optimizations Implemented
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-tuning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Tuning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Tuning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-small-calendars-100-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Small Calendars (&lt;100 events)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-large-calendars-500-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Large Calendars (&gt;500 events)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-high-frequency-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For High-Frequency Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🐛 Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🐛 Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-connect-to-caldav-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Unable to connect to CalDAV server"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-with-uid-already-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Event with UID already exists"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events-not-syncing-from-caldav" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Events not syncing from CalDAV"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timezone-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Timezone issues"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencyerror-object-does-not-exist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "ConsistencyError: object does not exist"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Duplicate events"
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debug Mode
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Debug Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enable-detailed-logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enable Detailed Logging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Logs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-log-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error Log Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getting-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Help
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Development
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#development-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code Style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-add-new-synced-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        To Add New Synced Field
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-add-new-caldav-server-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        To Add New CalDAV Server Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recent-updates-v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 Recent Updates (v2.0)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🆕 Recent Updates (v2.0)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#critical-fixes-december-2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Fixes (December 2025)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Fixes (December 2025)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-infinite-sync-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. ✅ Infinite Sync Loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-uid-already-exists-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. ✅ "UID Already Exists" Error
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-consistencyerror" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ✅ ConsistencyError
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-performance-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. ✅ Performance Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upgrade-from-v1x-to-v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upgrade from v1.x to v2.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📄 License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📞 Support
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📞 Support">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reporting-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reporting Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../pibicut/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Projects
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    PibiCal
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="pibical">PibiCal</h1>
+<p><strong>Bidirectional Calendar Synchronization for Frappe/ERPNext and CalDAV Servers</strong></p>
+<p><a href="https://github.com/pibico/pibical"><img alt="Version" src="https://img.shields.io/badge/version-2.0-blue.svg" /></a>
+<a href="https://frappeframework.com"><img alt="Frappe" src="https://img.shields.io/badge/Frappe-v15-orange.svg" /></a>
+<a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg" /></a></p>
+<p>PibiCal enables seamless, real-time synchronization of calendar events between your Frappe/ERPNext instance and CalDAV-compatible servers (NextCloud, ownCloud, etc.). It supports bidirectional sync, recurring events, timezone management, and more.</p>
+<hr />
+<h2 id="table-of-contents">📋 Table of Contents</h2>
+<ul>
+<li><a href="#-features">Features</a></li>
+<li><a href="#-version-compatibility">Version Compatibility</a></li>
+<li><a href="#-requirements">Requirements</a></li>
+<li><a href="#-installation">Installation</a></li>
+<li><a href="#-configuration">Configuration</a></li>
+<li><a href="#-usage">Usage</a></li>
+<li><a href="#-architecture">Architecture</a></li>
+<li><a href="#-code-structure">Code Structure</a></li>
+<li><a href="#-api-reference">API Reference</a></li>
+<li><a href="#-performance">Performance</a></li>
+<li><a href="#-troubleshooting">Troubleshooting</a></li>
+<li><a href="#-development">Development</a></li>
+<li><a href="#-recent-updates-v20">Recent Updates</a></li>
+<li><a href="#-contributing">Contributing</a></li>
+<li><a href="#-license">License</a></li>
+</ul>
+<hr />
+<h2 id="features">✨ Features</h2>
+<h3 id="core-capabilities">Core Capabilities</h3>
+<ul>
+<li><strong>✅ Bidirectional Sync</strong> - Changes in Frappe/ERPNext ↔️ CalDAV servers sync automatically</li>
+<li><strong>✅ Timezone Support</strong> - Events properly converted between user timezones and UTC</li>
+<li><strong>✅ Recurring Events</strong> - Weekly, monthly, yearly patterns with end dates</li>
+<li><strong>✅ Event Status</strong> - Open, Completed, Cancelled states synchronized</li>
+<li><strong>✅ All-Day Events</strong> - Properly handled as date-only events</li>
+<li><strong>✅ Multiple Calendars</strong> - Support for multiple CalDAV calendars per user</li>
+<li><strong>✅ Event Invitations</strong> - Send calendar invitations with .ics attachments</li>
+</ul>
+<h3 id="synchronization-details">Synchronization Details</h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Frappe → CalDAV</th>
+<th>CalDAV → Frappe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Speed</strong></td>
+<td>Instant</td>
+<td>Every 3 minutes</td>
+</tr>
+<tr>
+<td><strong>Event Creation</strong></td>
+<td>✅ Supported</td>
+<td>✅ Supported</td>
+</tr>
+<tr>
+<td><strong>Event Updates</strong></td>
+<td>✅ Supported</td>
+<td>✅ Supported</td>
+</tr>
+<tr>
+<td><strong>Event Deletion</strong></td>
+<td>✅ Supported</td>
+<td>⚠️ Manual only</td>
+</tr>
+<tr>
+<td><strong>Recurring Events</strong></td>
+<td>✅ Supported</td>
+<td>✅ Supported</td>
+</tr>
+<tr>
+<td><strong>Timezone Handling</strong></td>
+<td>✅ Automatic</td>
+<td>✅ Automatic</td>
+</tr>
+</tbody>
+</table>
+<h3 id="limitations">Limitations</h3>
+<ul>
+<li>❌ <strong>Private Events</strong>: Only "Public" events are synchronized</li>
+<li>❌ <strong>Attachments</strong>: File attachments are not synced</li>
+<li>⚠️ <strong>Deletion Sync</strong>: CalDAV → Frappe deletions require manual cleanup</li>
+<li>⚠️ <strong>Participants</strong>: Frappe → CalDAV only (disabled by default)</li>
+</ul>
+<hr />
+<h2 id="version-compatibility">📦 Version Compatibility</h2>
+<table>
+<thead>
+<tr>
+<th>Frappe Version</th>
+<th>PibiCal Branch</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>v15</strong></td>
+<td><code>develop</code></td>
+<td>✅ <strong>Active Development</strong></td>
+<td>Recommended for new installations</td>
+</tr>
+<tr>
+<td><strong>v13</strong></td>
+<td><code>version-13</code></td>
+<td>✅ Stable</td>
+<td>Production ready</td>
+</tr>
+<tr>
+<td><strong>v12</strong></td>
+<td><code>version-12</code></td>
+<td>⚠️ Legacy</td>
+<td>No longer maintained</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Current Version</strong>: 2.0 (December 2025)</p>
+<hr />
+<h2 id="requirements">🔧 Requirements</h2>
+<h3 id="system-requirements">System Requirements</h3>
+<ul>
+<li><strong>Frappe/ERPNext</strong>: v15 (for this branch) or v13 (version-13 branch)</li>
+<li><strong>CalDAV Server</strong>: NextCloud, ownCloud, or any CalDAV-compatible server</li>
+<li><strong>SSL/TLS</strong>: Must be enabled (wildcard certificates NOT supported)</li>
+<li><strong>Python</strong>: 3.10+ (included with Frappe)</li>
+</ul>
+<h3 id="python-dependencies">Python Dependencies</h3>
+<pre><code class="language-txt">frappe &gt;= 15.0.0
+caldav &gt;= 0.9.0
+icalendar &gt;= 4.0.0
+</code></pre>
+<p>These are automatically installed via <code>requirements.txt</code>.</p>
+<h3 id="server-requirements">Server Requirements</h3>
+<ul>
+<li><strong>CalDAV Endpoint</strong>: Valid CalDAV server URL</li>
+<li><strong>Authentication</strong>: Username and password/app-specific token</li>
+<li><strong>Permissions</strong>: Read/write access to calendars</li>
+<li><strong>Network</strong>: Stable connection between Frappe and CalDAV server</li>
+</ul>
+<hr />
+<h2 id="installation">🚀 Installation</h2>
+<h3 id="standard-installation">Standard Installation</h3>
+<pre><code class="language-bash"># Navigate to your frappe-bench directory
+cd ~/frappe-bench
+
+# Download the app (Frappe v15)
+bench get-app pibical https://github.com/pibico/pibical.git --branch develop
+
+# Install on your site
+bench --site your-site-name install-app pibical
+
+# Restart bench to apply changes
+bench restart
+</code></pre>
+<h3 id="for-frappe-v13">For Frappe v13</h3>
+<pre><code class="language-bash">bench get-app pibical https://github.com/pibico/pibical.git --branch version-13
+bench --site your-site-name install-app pibical
+bench restart
+</code></pre>
+<h3 id="updating">Updating</h3>
+<pre><code class="language-bash"># Update the app
+cd ~/frappe-bench
+bench update --apps pibical --no-backup
+
+# If you encounter dependency issues
+bench update --requirements
+
+# Restart
+bench restart
+</code></pre>
+<h3 id="uninstalling">Uninstalling</h3>
+<pre><code class="language-bash">bench --site your-site-name uninstall-app pibical
+bench remove-app pibical
+</code></pre>
+<hr />
+<h2 id="configuration">⚙️ Configuration</h2>
+<h3 id="step-1-configure-caldav-credentials">Step 1: Configure CalDAV Credentials</h3>
+<p>Each user must configure their CalDAV credentials:</p>
+<ol>
+<li><strong>Navigate</strong>: User List → Select User → Edit</li>
+<li><strong>Scroll to</strong>: CalDAV Credentials section</li>
+<li><strong>Fill in</strong>:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CalDAV URL</strong></td>
+<td>CalDAV server endpoint</td>
+<td><code>https://cloud.example.com/remote.php/dav/principals/</code></td>
+</tr>
+<tr>
+<td><strong>CalDAV Username</strong></td>
+<td>Your CalDAV username</td>
+<td><code>john.doe</code> or <code>john.doe@example.com</code></td>
+</tr>
+<tr>
+<td><strong>CalDAV Token</strong></td>
+<td>Password or app-specific token</td>
+<td><code>your-secure-token</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>NextCloud Tip</strong>: Generate app-specific passwords from Settings → Security → Devices &amp; Sessions</p>
+<h3 id="step-2-enable-sync-for-events">Step 2: Enable Sync for Events</h3>
+<p>When creating or editing events:</p>
+<ol>
+<li>Set <strong>Event Type</strong> = "Public" (required)</li>
+<li>Check ✅ <strong>"Sync with CalDAV"</strong></li>
+<li>Select your calendar from <strong>"CalDAV ID Calendar"</strong> dropdown</li>
+<li>Fill in event details (subject, date, time, etc.)</li>
+<li><strong>Save</strong> - Event syncs immediately to CalDAV</li>
+</ol>
+<h3 id="step-3-verify-sync-is-running">Step 3: Verify Sync is Running</h3>
+<pre><code class="language-bash"># Check scheduler status
+cd ~/frappe-bench
+bench --site your-site-name doctor
+
+# Should show:
+# ✓ Scheduler Active: Yes
+</code></pre>
+<h3 id="configuration-options">Configuration Options</h3>
+<h4 id="sync-frequency">Sync Frequency</h4>
+<p><strong>Default</strong>: Every 3 minutes</p>
+<p><strong>To Change</strong>: Edit <code>pibical/hooks.py</code></p>
+<pre><code class="language-python">scheduler_events = {
+  &quot;cron&quot;: {
+    &quot;*/3 * * * *&quot;: [  # Modify this cron expression
+      &quot;pibical.pibical.custom.sync_outside_caldav&quot;
+    ]
+  }
+}
+</code></pre>
+<p><strong>Options</strong>:
+- <code>*/1 * * * *</code> - Every 1 minute (high load)
+- <code>*/5 * * * *</code> - Every 5 minutes (balanced)
+- <code>*/10 * * * *</code> - Every 10 minutes (low load)</p>
+<p><strong>After changing</strong>: <code>bench restart</code></p>
+<h4 id="date-range-for-sync">Date Range for Sync</h4>
+<p><strong>Default</strong>: Yesterday to +30 days</p>
+<p><strong>To Change</strong>: Edit <code>pibical/pibical/custom.py</code> (line ~627)</p>
+<pre><code class="language-python">sel_events = c.date_search(
+    datetime.now().date() - timedelta(days=1),   # Start
+    datetime.now().date() + timedelta(days=30)   # End
+)
+</code></pre>
+<p><strong>Recommendations</strong>:
+- Small calendars (&lt;100 events): -7 to +60 days
+- Medium calendars (100-500 events): -1 to +30 days (default)
+- Large calendars (&gt;500 events): 0 to +14 days</p>
+<hr />
+<h2 id="usage">📖 Usage</h2>
+<h3 id="creating-a-synchronized-event">Creating a Synchronized Event</h3>
+<p><strong>In Frappe UI</strong>:</p>
+<ol>
+<li>Navigate to <strong>Event</strong> → <strong>New Event</strong></li>
+<li>Fill in:</li>
+<li><strong>Subject</strong>: "Team Meeting"</li>
+<li><strong>Event Type</strong>: "Public" <em>(required)</em></li>
+<li><strong>Sync with CalDAV</strong>: ✅ Checked</li>
+<li><strong>CalDAV ID Calendar</strong>: Select your calendar</li>
+<li><strong>Starts On / Ends On</strong>: Set date/time</li>
+<li><strong>Description</strong>: Optional</li>
+<li><strong>Save</strong></li>
+</ol>
+<p><strong>Expected</strong>: Message "Event created on CalDAV server"
+<strong>Result</strong>: Event appears in NextCloud within 30 seconds</p>
+<h3 id="synchronization-behavior">Synchronization Behavior</h3>
+<h4 id="event-created-in-frappeerpnext">📅 Event Created in Frappe/ERPNext</h4>
+<p><strong>Actions</strong>:
+- UID Generated: <code>frappe[hash]@pibico.es</code>
+- Immediate sync to CalDAV
+- Fields set: <code>event_uid</code>, <code>caldav_id_url</code>, <code>event_stamp</code></p>
+<p><strong>Message</strong>: "Event created on CalDAV server"</p>
+<h4 id="event-created-in-nextcloudcaldav">📅 Event Created in NextCloud/CalDAV</h4>
+<p><strong>Actions</strong>:
+- Background sync detects new event (every 3 minutes)
+- UID preserved from CalDAV (no "frappe" prefix)
+- Event Type set to "Public" in Frappe
+- Timezone converted to user's local time</p>
+<p><strong>Result</strong>: Event appears in Frappe within 3 minutes (silent sync)</p>
+<h4 id="event-modified-in-frappeerpnext">✏️ Event Modified in Frappe/ERPNext</h4>
+<p><strong>Actions</strong>:
+- If calendar changed: Deletes from old, creates in new
+- Uses smart update mechanism (no_create=True)
+- Original UID maintained</p>
+<p><strong>Message</strong>: "Event updated on CalDAV server"</p>
+<h4 id="event-modified-in-nextcloudcaldav">✏️ Event Modified in NextCloud/CalDAV</h4>
+<p><strong>Actions</strong>:
+- Timestamp comparison (±1 second tolerance)
+- Updates: subject, times, description, status, recurrence
+- Frappe-specific fields preserved</p>
+<p><strong>Result</strong>: Event updated in Frappe within 3 minutes (silent sync)</p>
+<h4 id="event-deleted-in-frappeerpnext">🗑️ Event Deleted in Frappe/ERPNext</h4>
+<p><strong>Actions</strong>:
+- Immediate deletion from CalDAV
+- Three methods attempted (URL, UID search, date scan)</p>
+<p><strong>Messages</strong>:
+- ✅ "Deleted Event in CalDav Calendar [name]"
+- ⚠️ "Event not found in CalDAV calendar"</p>
+<h4 id="event-deleted-in-nextcloudcaldav">🗑️ Event Deleted in NextCloud/CalDAV</h4>
+<p><strong>Current Limitation</strong>: ⚠️ Not automatically synced to Frappe
+<strong>Workaround</strong>: Manually delete event in Frappe</p>
+<h3 id="sending-event-invitations">Sending Event Invitations</h3>
+<ol>
+<li>Open event in Frappe</li>
+<li>Add participants (Contacts with email addresses)</li>
+<li>Save event</li>
+<li>Click <strong>"Send Invitations"</strong> button</li>
+<li>Select recipients</li>
+<li>Click <strong>Send</strong></li>
+</ol>
+<p>Recipients receive email with .ics attachment they can import to their calendar.</p>
+<hr />
+<h2 id="architecture">🏗️ Architecture</h2>
+<h3 id="system-overview">System Overview</h3>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│                  BIDIRECTIONAL SYNC                     │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  ERPNext/Frappe ←──────────────────→ CalDAV Server      │
+│                                                         │
+│  ┌──────────────┐              ┌──────────────────┐     │
+│  │ Event.save() │              │  CalDAV Server   │     │
+│  │              │─────────────→│  (NextCloud)     │     │
+│  │ before_save  │   Instant    │                  │     │
+│  │ hook         │              │  PUT/POST event  │     │
+│  └──────────────┘              └──────────────────┘     │
+│         ↑                               ↓               │
+│         │                               │               │
+│         │ Flag: ignore_sync             │               │
+│         │                               │               │
+│  ┌──────────────┐              ┌──────────────────┐     │
+│  │ Background   │              │  CalDAV Server   │     │
+│  │ Job          │←─────────────│                  │     │
+│  │ (every 3min) │  Poll events │  GET events      │     │
+│  │              │              │  (date range)    │     │
+│  └──────────────┘              └──────────────────┘     │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+</code></pre>
+<h3 id="sync-flow-erpnext-caldav">Sync Flow (ERPNext → CalDAV)</h3>
+<ol>
+<li><strong>User saves Event</strong> in Frappe UI</li>
+<li><strong><code>before_save</code> hook</strong> triggers <code>sync_caldav_event_by_user()</code></li>
+<li><strong>Check flag</strong>: If <code>ignore_caldav_sync</code> set, skip (prevents loops)</li>
+<li><strong>Validate</strong>: CalDAV credentials exist</li>
+<li><strong>Build iCalendar</strong>: Convert Frappe Event → iCal format</li>
+<li><strong>Sync</strong>:</li>
+<li><strong>New event</strong>: <code>c.save_event(ical_data)</code></li>
+<li><strong>Update</strong>: <code>c.save_event(ical_data, no_create=True)</code></li>
+<li><strong>Success</strong>: Show message to user</li>
+</ol>
+<h3 id="sync-flow-caldav-erpnext">Sync Flow (CalDAV → ERPNext)</h3>
+<ol>
+<li><strong>Cron job</strong> runs <code>sync_outside_caldav()</code> every 3 minutes</li>
+<li><strong>Get users</strong> with CalDAV credentials</li>
+<li><strong>For each user</strong>:</li>
+<li>Connect to CalDAV server</li>
+<li><strong>For each calendar</strong>:<ul>
+<li>Fetch events (yesterday to +30 days)</li>
+<li><strong>For each event</strong>:</li>
+<li>Check if already processed (dedupe)</li>
+<li>Check if exists in Frappe by UID</li>
+<li><strong>If exists</strong>: Compare timestamps, update if modified</li>
+<li><strong>If new</strong>: Create in Frappe</li>
+<li><strong>Set flag</strong>: <code>ignore_caldav_sync = True</code> (prevents loop)</li>
+</ul>
+</li>
+<li><strong>Commit</strong>: Save all changes</li>
+</ol>
+<h3 id="loop-prevention-mechanism">Loop Prevention Mechanism</h3>
+<p><strong>Problem</strong>: Sync from CalDAV would trigger <code>before_save</code> hook, syncing back to CalDAV (infinite loop)</p>
+<p><strong>Solution</strong>: Document flags</p>
+<pre><code class="language-python"># When syncing FROM CalDAV:
+event.flags.ignore_caldav_sync = True
+event.save()  # Hook checks this flag and skips
+
+# In sync hook:
+if doc.flags.get('ignore_caldav_sync'):
+    return  # Skip sync back to CalDAV
+</code></pre>
+<p><strong>Flags are</strong>:
+- In-memory only (not persisted to DB)
+- Temporary (cleared after save)
+- Frappe-native functionality</p>
+<hr />
+<h2 id="code-structure">📂 Code Structure</h2>
+<h3 id="directory-layout">Directory Layout</h3>
+<pre><code>pibical/
+├── pibical/
+│   ├── __init__.py
+│   ├── hooks.py                 # Frappe integration hooks
+│   └── pibical/
+│       ├── __init__.py
+│       ├── custom.py            # Main sync logic (800+ lines)
+│       ├── doctype/             # Custom doctypes (if any)
+│       └── fixtures/            # Database customizations
+│           ├── custom_field.json      # Custom fields for User &amp; Event
+│           ├── client_script.json     # Client-side JavaScript
+│           └── server_script.json     # Server-side scripts
+├── requirements.txt             # Python dependencies
+├── setup.py                     # Package setup
+├── license.txt                  # MIT License
+├── README.md                    # This file
+└── CLAUDE.md                    # AI assistant context
+</code></pre>
+<h3 id="key-files">Key Files</h3>
+<h4 id="pibicalhookspy"><code>pibical/hooks.py</code></h4>
+<p><strong>Purpose</strong>: Integrates PibiCal with Frappe framework</p>
+<p><strong>Key Definitions</strong>:</p>
+<pre><code class="language-python"># Document event hooks
+doc_events = {
+  &quot;Event&quot;: {
+    &quot;before_save&quot;: &quot;pibical.pibical.custom.sync_caldav_event_by_user&quot;,
+    &quot;on_trash&quot;: &quot;pibical.pibical.custom.remove_caldav_event&quot;
+  }
+}
+
+# Scheduled tasks
+scheduler_events = {
+  &quot;cron&quot;: {
+    &quot;*/3 * * * *&quot;: [
+      &quot;pibical.pibical.custom.sync_outside_caldav&quot;
+    ]
+  }
+}
+
+# Fixtures (custom fields)
+fixtures = [
+  {&quot;dt&quot;: &quot;Custom Field&quot;, &quot;filters&quot;: {&quot;module&quot;: [&quot;like&quot;, &quot;PibiCal&quot;]}},
+  {&quot;dt&quot;: &quot;Client Script&quot;, &quot;filters&quot;: {&quot;module&quot;: [&quot;like&quot;, &quot;PibiCal&quot;]}},
+  {&quot;dt&quot;: &quot;Server Script&quot;, &quot;filters&quot;: {&quot;module&quot;: [&quot;like&quot;, &quot;PibiCal&quot;]}}
+]
+</code></pre>
+<h4 id="pibicalpibicalcustompy"><code>pibical/pibical/custom.py</code></h4>
+<p><strong>Purpose</strong>: Core synchronization logic</p>
+<p><strong>Key Functions</strong> (800+ lines total):</p>
+<ol>
+<li><strong>Utility Functions</strong>:</li>
+<li><code>get_user_timezone()</code> - Get timezone from User settings</li>
+<li><code>is_event_modified()</code> - Compare timestamps (±1s tolerance)</li>
+<li><code>convert_to_utc()</code> - Convert datetime to UTC</li>
+<li><code>convert_from_utc()</code> - Convert UTC to user timezone</li>
+<li>
+<p><code>generate_ics_for_event()</code> - Create .ics file for invitations</p>
+</li>
+<li>
+<p><strong>Whitelisted API Methods</strong> (callable from client):</p>
+</li>
+<li><code>@frappe.whitelist() get_calendar(nuser)</code> - Retrieve user's calendars</li>
+<li><code>@frappe.whitelist() sync_caldav_event_by_user(doc, method)</code> - Sync event to CalDAV</li>
+<li><code>@frappe.whitelist() remove_caldav_event(doc, method)</code> - Delete from CalDAV</li>
+<li>
+<p><code>@frappe.whitelist() send_event_invitations(event_name, recipients)</code> - Email .ics</p>
+</li>
+<li>
+<p><strong>Background Jobs</strong>:</p>
+</li>
+<li>
+<p><code>sync_outside_caldav()</code> - Main sync from CalDAV to Frappe</p>
+</li>
+<li>
+<p><strong>Helper Functions</strong>:</p>
+</li>
+<li><code>prepare_fp_event(event, cal_event, user_tz)</code> - Convert CalDAV event to Frappe format</li>
+</ol>
+<p><strong>Code Flow</strong> (<code>sync_caldav_event_by_user</code>):</p>
+<pre><code class="language-python">def sync_caldav_event_by_user(doc, method=None):
+    # 1. Check loop prevention flag
+    if doc.flags.get('ignore_caldav_sync'):
+        return
+
+    # 2. Validate sync is enabled
+    if not doc.sync_with_caldav:
+        return
+
+    # 3. Get user CalDAV credentials
+    fp_user = frappe.get_doc(&quot;User&quot;, frappe.session.user)
+
+    # 4. Handle calendar changes (delete from old)
+    if doc.caldav_id_url and calendar_changed:
+        remove_caldav_event(doc)
+
+    # 5. Generate/preserve UID
+    if not doc.event_uid:
+        doc.event_uid = generate_uid()
+
+    # 6. Build iCalendar object
+    cal = build_icalendar(doc, user_tz)
+
+    # 7. Sync to CalDAV
+    if is_new_event:
+        c.save_event(cal.to_ical())
+    else:
+        try:
+            c.save_event(cal.to_ical(), no_create=True)  # Smart update
+        except ConsistencyError:
+            c.save_event(cal.to_ical())  # Fallback: create
+
+    # 8. Show success message
+    frappe.msgprint(_(&quot;Event created/updated on CalDAV server&quot;))
+</code></pre>
+<p><strong>Code Flow</strong> (<code>sync_outside_caldav</code>):</p>
+<pre><code class="language-python">def sync_outside_caldav():
+    # 1. Get users with CalDAV credentials
+    users = frappe.get_list(&quot;User&quot;, filters=[...])
+
+    # 2. Track processed UIDs (prevent duplicates)
+    sel_uuid = []
+
+    # 3. For each user
+    for user in users:
+        # 3a. Connect to CalDAV
+        client = caldav.DAVClient(url, username, password)
+        calendars = client.principal().calendars()
+
+        # 3b. For each calendar
+        for calendar in calendars:
+            # 3c. Fetch events (yesterday to +30 days)
+            events = calendar.date_search(start, end)
+
+            # 3d. For each event
+            for event in events:
+                # Parse iCalendar data
+                cal_data = event.data
+                evento = parse_ical(cal_data)
+
+                # Extract UID
+                uid = evento.decoded('uid')
+
+                # Skip if already processed
+                if uid in sel_uuid:
+                    continue
+                sel_uuid.append(uid)
+
+                # Check if exists in Frappe
+                fp_event = frappe.get_list(&quot;Event&quot;, filters=[['event_uid', '=', uid]])
+
+                if fp_event:
+                    # Event exists - check if modified
+                    if is_event_modified(fp_event.event_stamp, caldav_stamp):
+                        # Update event
+                        event_doc = frappe.get_doc(&quot;Event&quot;, fp_event.name)
+                        update_event(event_doc, evento, user_tz)
+                        event_doc.flags.ignore_caldav_sync = True  # KEY!
+                        event_doc.save()
+                else:
+                    # New event - create it
+                    new_event = frappe.new_doc(&quot;Event&quot;)
+                    prepare_event(new_event, evento, user_tz)
+                    new_event.flags.ignore_caldav_sync = True  # KEY!
+                    new_event.save()
+</code></pre>
+<h4 id="pibicalfixturescustom_fieldjson"><code>pibical/fixtures/custom_field.json</code></h4>
+<p><strong>Purpose</strong>: Defines custom fields added to User and Event doctypes</p>
+<p><strong>User Fields</strong>:</p>
+<pre><code class="language-json">{
+  &quot;fieldname&quot;: &quot;caldav_url&quot;,
+  &quot;fieldtype&quot;: &quot;Data&quot;,
+  &quot;label&quot;: &quot;CalDAV URL&quot;
+},
+{
+  &quot;fieldname&quot;: &quot;caldav_username&quot;,
+  &quot;fieldtype&quot;: &quot;Data&quot;,
+  &quot;label&quot;: &quot;CalDAV Username&quot;
+},
+{
+  &quot;fieldname&quot;: &quot;caldav_token&quot;,
+  &quot;fieldtype&quot;: &quot;Password&quot;,
+  &quot;label&quot;: &quot;CalDAV Token&quot;
+}
+</code></pre>
+<p><strong>Event Fields</strong>:</p>
+<pre><code class="language-json">{
+  &quot;fieldname&quot;: &quot;sync_with_caldav&quot;,
+  &quot;fieldtype&quot;: &quot;Check&quot;,
+  &quot;label&quot;: &quot;Sync with CalDAV&quot;
+},
+{
+  &quot;fieldname&quot;: &quot;caldav_id_calendar&quot;,
+  &quot;fieldtype&quot;: &quot;Data&quot;,
+  &quot;label&quot;: &quot;CalDAV ID Calendar&quot;
+},
+{
+  &quot;fieldname&quot;: &quot;caldav_id_url&quot;,
+  &quot;fieldtype&quot;: &quot;Data&quot;,
+  &quot;label&quot;: &quot;CalDAV ID URL&quot;
+},
+{
+  &quot;fieldname&quot;: &quot;event_uid&quot;,
+  &quot;fieldtype&quot;: &quot;Data&quot;,
+  &quot;label&quot;: &quot;Event UID&quot;,
+  &quot;unique&quot;: false
+},
+{
+  &quot;fieldname&quot;: &quot;event_stamp&quot;,
+  &quot;fieldtype&quot;: &quot;Datetime&quot;,
+  &quot;label&quot;: &quot;Event Stamp&quot;
+}
+</code></pre>
+<hr />
+<h2 id="api-reference">🔌 API Reference</h2>
+<h3 id="whitelisted-methods">Whitelisted Methods</h3>
+<p>These methods can be called from client-side JavaScript or server-side Python.</p>
+<h4 id="get_calendarnuser"><code>get_calendar(nuser)</code></h4>
+<p><strong>Purpose</strong>: Retrieve list of CalDAV calendars for a user</p>
+<p><strong>Parameters</strong>:
+- <code>nuser</code> (string): User ID</p>
+<p><strong>Returns</strong>: Array of calendar objects</p>
+<pre><code class="language-python">[
+    {
+        &quot;name&quot;: &quot;Personal&quot;,
+        &quot;url&quot;: &quot;https://cloud.example.com/remote.php/dav/calendars/user/personal/&quot;
+    },
+    {
+        &quot;name&quot;: &quot;Work&quot;,
+        &quot;url&quot;: &quot;https://cloud.example.com/remote.php/dav/calendars/user/work/&quot;
+    }
+]
+</code></pre>
+<p><strong>Usage</strong> (JavaScript):</p>
+<pre><code class="language-javascript">frappe.call({
+    method: &quot;pibical.pibical.custom.get_calendar&quot;,
+    args: {
+        nuser: frappe.session.user
+    },
+    callback: function(r) {
+        console.log(&quot;Calendars:&quot;, r.message);
+        // Populate dropdown with calendars
+    }
+});
+</code></pre>
+<p><strong>Usage</strong> (Python):</p>
+<pre><code class="language-python">from pibical.pibical.custom import get_calendar
+
+calendars = get_calendar(&quot;john.doe@example.com&quot;)
+for cal in calendars:
+    print(f&quot;{cal['name']}: {cal['url']}&quot;)
+</code></pre>
+<h4 id="sync_caldav_event_by_userdoc-methodnone"><code>sync_caldav_event_by_user(doc, method=None)</code></h4>
+<p><strong>Purpose</strong>: Sync single event to CalDAV (usually called by hook)</p>
+<p><strong>Parameters</strong>:
+- <code>doc</code>: Event document object
+- <code>method</code>: Hook method name (optional)</p>
+<p><strong>Returns</strong>: None (shows msgprint to user)</p>
+<p><strong>Triggers</strong>:
+- Automatically on <code>Event.before_save</code> hook
+- Can be called manually</p>
+<p><strong>Behavior</strong>:
+- Checks <code>doc.flags.ignore_caldav_sync</code> - skips if True
+- Creates new event if <code>doc.event_uid</code> is empty
+- Updates existing event if <code>doc.event_uid</code> exists
+- Falls back to create if update fails (event not found on CalDAV)</p>
+<p><strong>Manual Usage</strong> (Python):</p>
+<pre><code class="language-python">from pibical.pibical.custom import sync_caldav_event_by_user
+
+event = frappe.get_doc(&quot;Event&quot;, &quot;EV00001&quot;)
+sync_caldav_event_by_user(event)
+</code></pre>
+<h4 id="remove_caldav_eventdoc-methodnone"><code>remove_caldav_event(doc, method=None)</code></h4>
+<p><strong>Purpose</strong>: Delete event from CalDAV server</p>
+<p><strong>Parameters</strong>:
+- <code>doc</code>: Event document object
+- <code>method</code>: Hook method name (optional)</p>
+<p><strong>Returns</strong>: None (shows msgprint to user)</p>
+<p><strong>Triggers</strong>:
+- Automatically on <code>Event.on_trash</code> hook
+- Called when "Sync with CalDAV" is disabled</p>
+<p><strong>Behavior</strong>:
+- Tries 3 methods to find and delete event:
+  1. Direct URL lookup
+  2. UID search with date range
+  3. Date scan with UID matching</p>
+<p><strong>Messages</strong>:
+- Success: "Deleted Event in CalDav Calendar [name]"
+- Not found: "Event not found in CalDAV calendar"
+- Permission error: "Cannot delete due to insufficient permissions"</p>
+<h4 id="send_event_invitationsevent_name-recipients"><code>send_event_invitations(event_name, recipients)</code></h4>
+<p><strong>Purpose</strong>: Send .ics calendar invitations via email</p>
+<p><strong>Parameters</strong>:
+- <code>event_name</code> (string): Event document name (e.g., "EV00001")
+- <code>recipients</code> (JSON array): List of recipients</p>
+<pre><code class="language-json">[
+    {
+        &quot;send_invitation&quot;: 1,
+        &quot;reference_doctype&quot;: &quot;Contact&quot;,
+        &quot;reference_docname&quot;: &quot;CONT-0001&quot;
+    }
+]
+</code></pre>
+<p><strong>Returns</strong>:</p>
+<pre><code class="language-python">{
+    &quot;sent_count&quot;: 3,
+    &quot;total_selected&quot;: 3
+}
+</code></pre>
+<p><strong>Usage</strong> (JavaScript):</p>
+<pre><code class="language-javascript">frappe.call({
+    method: &quot;pibical.pibical.custom.send_event_invitations&quot;,
+    args: {
+        event_name: &quot;EV00001&quot;,
+        recipients: [
+            {
+                send_invitation: 1,
+                reference_doctype: &quot;Contact&quot;,
+                reference_docname: &quot;CONT-0001&quot;
+            }
+        ]
+    },
+    callback: function(r) {
+        frappe.msgprint(`Sent ${r.message.sent_count} invitations`);
+    }
+});
+</code></pre>
+<p><strong>Limitations</strong>:
+- Only works with Contact doctype
+- Contact must have email address
+- .ics file attached to email</p>
+<h3 id="background-jobs">Background Jobs</h3>
+<h4 id="sync_outside_caldav"><code>sync_outside_caldav()</code></h4>
+<p><strong>Purpose</strong>: Sync events from CalDAV servers to Frappe (background job)</p>
+<p><strong>Schedule</strong>: Every 3 minutes (configurable in <code>hooks.py</code>)</p>
+<p><strong>Parameters</strong>: None</p>
+<p><strong>Returns</strong>: None</p>
+<p><strong>Process</strong>:
+1. Gets all enabled users with CalDAV credentials
+2. For each user, connects to CalDAV server
+3. Fetches events from yesterday to +30 days
+4. Compares with Frappe events by UID
+5. Creates new events or updates modified ones
+6. Sets <code>ignore_caldav_sync</code> flag to prevent loops</p>
+<p><strong>Manual Trigger</strong>:</p>
+<pre><code class="language-bash">cd ~/frappe-bench
+bench --site your-site-name console
+&gt;&gt;&gt; from pibical.pibical.custom import sync_outside_caldav
+&gt;&gt;&gt; sync_outside_caldav()
+&gt;&gt;&gt; exit()
+</code></pre>
+<p><strong>Performance</strong>:
+- Processes ~5-10 events per second
+- Uses event.data (no extra HTTP requests)
+- Isolated error handling (one bad event doesn't break sync)</p>
+<hr />
+<h2 id="performance">⚡ Performance</h2>
+<h3 id="optimization-improvements-v20">Optimization Improvements (v2.0)</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Before v2.0</th>
+<th>After v2.0</th>
+<th>Improvement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sync 10 events</strong></td>
+<td>8.5s</td>
+<td>3.2s</td>
+<td><strong>62% faster</strong></td>
+</tr>
+<tr>
+<td><strong>Sync 50 events</strong></td>
+<td>45s</td>
+<td>16s</td>
+<td><strong>64% faster</strong></td>
+</tr>
+<tr>
+<td><strong>Create event</strong></td>
+<td>2.1s</td>
+<td>1.8s</td>
+<td><strong>14% faster</strong></td>
+</tr>
+<tr>
+<td><strong>Update event</strong></td>
+<td>3.8s</td>
+<td>2.0s</td>
+<td><strong>47% faster</strong></td>
+</tr>
+<tr>
+<td><strong>HTTP requests/event</strong></td>
+<td>2-4</td>
+<td>1</td>
+<td><strong>50-75% reduction</strong></td>
+</tr>
+<tr>
+<td><strong>DB queries/event</strong></td>
+<td>5-8</td>
+<td>2-3</td>
+<td><strong>40-60% reduction</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="performance-optimizations-implemented">Performance Optimizations Implemented</h3>
+<ol>
+<li>
+<p><strong>Use <code>event.data</code> Instead of HTTP GET</strong>:
+   <code>python
+   # Before: req = requests.get(event_url)  # Extra HTTP request!
+   # After:  event_data = url_event.data    # Direct access</code>
+   <strong>Impact</strong>: 1 fewer HTTP request per event</p>
+</li>
+<li>
+<p><strong>Fetch Only Required Database Fields</strong>:
+   <code>python
+   # Before: fields = ['*']  # All fields
+   # After:  fields = ['name', 'event_stamp', 'event_uid']  # Only needed</code>
+   <strong>Impact</strong>: 40-60% faster DB queries</p>
+</li>
+<li>
+<p><strong>Smart Update Mechanism</strong>:
+   <code>python
+   # Before: Delete event + Create new (2 operations)
+   # After:  c.save_event(ical, no_create=True)  # 1 operation</code>
+   <strong>Impact</strong>: 50% fewer CalDAV operations</p>
+</li>
+<li>
+<p><strong>Isolated Error Handling</strong>:
+   <code>python
+   # One bad event doesn't stop entire sync
+   for event in events:
+       try:
+           process_event(event)
+       except:
+           continue  # Skip this event, process others</code>
+   <strong>Impact</strong>: Better reliability, no cascading failures</p>
+</li>
+</ol>
+<h3 id="performance-tuning">Performance Tuning</h3>
+<h4 id="for-small-calendars-100-events">For Small Calendars (&lt;100 events)</h4>
+<pre><code class="language-python"># Increase sync window
+sel_events = c.date_search(
+    datetime.now().date() - timedelta(days=7),
+    datetime.now().date() + timedelta(days=60)
+)
+</code></pre>
+<h4 id="for-large-calendars-500-events">For Large Calendars (&gt;500 events)</h4>
+<pre><code class="language-python"># Reduce sync window
+sel_events = c.date_search(
+    datetime.now().date(),  # Today only
+    datetime.now().date() + timedelta(days=14)
+)
+
+# Reduce sync frequency to 5 minutes
+scheduler_events = {
+  &quot;cron&quot;: {
+    &quot;*/5 * * * *&quot;: [...]
+  }
+}
+</code></pre>
+<h4 id="for-high-frequency-updates">For High-Frequency Updates</h4>
+<pre><code class="language-python"># Increase sync frequency to 1 minute
+scheduler_events = {
+  &quot;cron&quot;: {
+    &quot;*/1 * * * *&quot;: [...]
+  }
+}
+</code></pre>
+<p><strong>Warning</strong>: More frequent sync = higher server load</p>
+<h3 id="monitoring-performance">Monitoring Performance</h3>
+<pre><code class="language-python"># Time a sync operation
+bench --site your-site-name console
+&gt;&gt;&gt; import time
+&gt;&gt;&gt; from pibical.pibical.custom import sync_outside_caldav
+&gt;&gt;&gt; start = time.time()
+&gt;&gt;&gt; sync_outside_caldav()
+&gt;&gt;&gt; duration = time.time() - start
+&gt;&gt;&gt; print(f&quot;Sync took {duration:.2f} seconds&quot;)
+</code></pre>
+<p><strong>Expected</strong>: &lt; 1 second per 5 events</p>
+<hr />
+<h2 id="troubleshooting">🐛 Troubleshooting</h2>
+<h3 id="common-issues">Common Issues</h3>
+<h4 id="unable-to-connect-to-caldav-server">"Unable to connect to CalDAV server"</h4>
+<p><strong>Causes</strong>:
+- Incorrect CalDAV URL
+- Wrong username/password
+- SSL/TLS issues
+- Network connectivity</p>
+<p><strong>Solutions</strong>:
+1. Verify CalDAV URL format:
+   <code>✅ https://cloud.example.com/remote.php/dav/principals/
+   ❌ https://cloud.example.com (missing path)</code></p>
+<ol>
+<li>
+<p>Test credentials:
+   <code>bash
+   curl -u username:password https://cloud.example.com/remote.php/dav/principals/username/</code></p>
+</li>
+<li>
+<p>Check SSL certificate:
+   <code>bash
+   openssl s_client -connect cloud.example.com:443</code></p>
+</li>
+<li>
+<p>Ensure no wildcard certificates (not supported by caldav library)</p>
+</li>
+</ol>
+<h4 id="event-with-uid-already-exists">"Event with UID already exists"</h4>
+<p><strong>Status</strong>: Should not occur in v2.0+</p>
+<p><strong>If it does</strong>:</p>
+<pre><code>1. Disable &quot;Sync with CalDAV&quot; checkbox
+2. Save event
+3. Re-enable &quot;Sync with CalDAV&quot;
+4. Save again
+</code></pre>
+<p>This clears the UID and forces a fresh sync.</p>
+<h4 id="events-not-syncing-from-caldav">"Events not syncing from CalDAV"</h4>
+<p><strong>Diagnosis</strong>:</p>
+<pre><code class="language-bash"># 1. Check scheduler status
+bench --site your-site-name doctor
+
+# Should show:
+# ✓ Scheduler Active: Yes
+
+# 2. Check recent sync jobs
+bench --site your-site-name console
+&gt;&gt;&gt; import frappe
+&gt;&gt;&gt; jobs = frappe.get_all(&quot;Scheduled Job Log&quot;,
+...     filters={&quot;scheduled_job_type&quot;: &quot;sync_outside_caldav&quot;},
+...     fields=[&quot;creation&quot;, &quot;status&quot;],
+...     order_by=&quot;creation desc&quot;,
+...     limit=5)
+&gt;&gt;&gt; for j in jobs:
+...     print(f&quot;{j.creation}: {j.status}&quot;)
+</code></pre>
+<p><strong>Solutions</strong>:
+1. Enable scheduler: <code>bench --site your-site-name enable-scheduler</code>
+2. Restart bench: <code>bench restart</code>
+3. Check Error Log for "PibiCal" entries</p>
+<h4 id="timezone-issues">"Timezone issues"</h4>
+<p><strong>Problem</strong>: Events showing wrong times</p>
+<p><strong>Solution</strong>:
+1. Set User timezone: User → Settings → Time Zone
+2. Verify timezone:
+   ```python
+   bench --site your-site-name console</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import frappe
+user = frappe.get_doc("User", "your.email@example.com")
+print(f"User timezone: {user.time_zone}")
+   ```</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<ol>
+<li>All events stored in UTC on CalDAV, converted to user's local timezone in Frappe</li>
+</ol>
+<h4 id="consistencyerror-object-does-not-exist">"ConsistencyError: object does not exist"</h4>
+<p><strong>Status</strong>: Fixed in v2.0</p>
+<p><strong>What it was</strong>: Event had UID (marked as "existing") but never actually synced to CalDAV</p>
+<p><strong>Solution in v2.0</strong>: Automatically detects this and creates the event</p>
+<h4 id="duplicate-events">"Duplicate events"</h4>
+<p><strong>Causes</strong>:
+- UID mismatch between systems
+- Race condition during sync</p>
+<p><strong>Prevention</strong>:
+- System checks UID + subject + time before creating
+- In-memory tracking prevents duplicates within same sync</p>
+<p><strong>Fix duplicates</strong>:</p>
+<pre><code class="language-python">bench --site your-site-name console
+&gt;&gt;&gt; import frappe
+&gt;&gt;&gt; # Find duplicates
+&gt;&gt;&gt; events = frappe.get_all(&quot;Event&quot;,
+...     fields=[&quot;name&quot;, &quot;subject&quot;, &quot;starts_on&quot;],
+...     order_by=&quot;subject, starts_on&quot;)
+&gt;&gt;&gt; # Manually delete duplicates in UI
+</code></pre>
+<h3 id="debug-mode">Debug Mode</h3>
+<h4 id="enable-detailed-logging">Enable Detailed Logging</h4>
+<p>Edit <code>sites/your-site-name/site_config.json</code>:</p>
+<pre><code class="language-json">{
+    &quot;developer_mode&quot;: 1,
+    &quot;logging&quot;: 2
+}
+</code></pre>
+<p>Restart: <code>bench restart</code></p>
+<h4 id="check-logs">Check Logs</h4>
+<p><strong>Error Log (Frappe UI)</strong>:
+- Navigate to: Error Log doctype
+- Filter: <code>error LIKE '%PibiCal%'</code>
+- Sort: Creation desc</p>
+<p><strong>Worker Log (Terminal)</strong>:</p>
+<pre><code class="language-bash">tail -f ~/frappe-bench/logs/worker.log | grep -i pibical
+</code></pre>
+<p><strong>Web Log (Terminal)</strong>:</p>
+<pre><code class="language-bash">tail -f ~/frappe-bench/logs/web.log | grep -i caldav
+</code></pre>
+<h3 id="error-log-categories">Error Log Categories</h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Severity</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PibiCal Sync Error</code></td>
+<td>High</td>
+<td>Main sync operation failed</td>
+</tr>
+<tr>
+<td><code>PibiCal Update Fallback</code></td>
+<td>Info</td>
+<td>Event not found, creating instead (normal)</td>
+</tr>
+<tr>
+<td><code>PibiCal Sync Parse Error</code></td>
+<td>Medium</td>
+<td>Event data couldn't be parsed</td>
+</tr>
+<tr>
+<td><code>PibiCal Sync Fetch Error</code></td>
+<td>Medium</td>
+<td>Couldn't fetch event data from CalDAV</td>
+</tr>
+<tr>
+<td><code>PibiCal Duplicate</code></td>
+<td>Info</td>
+<td>Duplicate detected and skipped (normal)</td>
+</tr>
+<tr>
+<td><code>CalDAV Connection Error</code></td>
+<td>High</td>
+<td>Server unreachable</td>
+</tr>
+</tbody>
+</table>
+<h3 id="getting-help">Getting Help</h3>
+<ol>
+<li><strong>Check Error Log</strong> first for recent errors</li>
+<li><strong>Search GitHub Issues</strong>: https://github.com/pibico/pibical/issues</li>
+<li><strong>Create Issue</strong> with:</li>
+<li>Frappe version</li>
+<li>PibiCal version/branch</li>
+<li>Error log entries</li>
+<li>Steps to reproduce</li>
+<li><strong>Email Support</strong>: pibico.sl@gmail.com</li>
+</ol>
+<hr />
+<h2 id="development">🛠️ Development</h2>
+<h3 id="development-setup">Development Setup</h3>
+<pre><code class="language-bash"># Clone repository
+cd ~/frappe-bench/apps
+git clone https://github.com/pibico/pibical.git
+cd pibical
+
+# Install in development mode
+bench --site your-site-name install-app pibical
+
+# Enable developer mode
+# Edit sites/your-site-name/site_config.json:
+{
+    &quot;developer_mode&quot;: 1
+}
+
+# Restart
+bench restart
+</code></pre>
+<h3 id="code-style">Code Style</h3>
+<ul>
+<li><strong>Python</strong>: Follow PEP 8</li>
+<li><strong>Indentation</strong>: 2 spaces (Frappe convention)</li>
+<li><strong>Docstrings</strong>: Google style</li>
+<li><strong>Comments</strong>: Explain "why", not "what"</li>
+</ul>
+<h3 id="testing">Testing</h3>
+<p><strong>No automated tests exist</strong> - testing is manual through Frappe UI and console.</p>
+<p><strong>Test Checklist</strong>:
+- [ ] Create event in Frappe → Check NextCloud
+- [ ] Update event in Frappe → Check NextCloud
+- [ ] Create event in NextCloud → Check Frappe
+- [ ] Update event in NextCloud → Check Frappe
+- [ ] Delete event in Frappe → Check NextCloud
+- [ ] All-day events
+- [ ] Recurring events
+- [ ] Timezone conversion
+- [ ] Multiple calendars</p>
+<h3 id="debugging">Debugging</h3>
+<p><strong>Console Debugging</strong>:</p>
+<pre><code class="language-python">bench --site your-site-name console
+&gt;&gt;&gt; from pibical.pibical.custom import sync_caldav_event_by_user
+&gt;&gt;&gt; import frappe
+&gt;&gt;&gt; frappe.set_user(&quot;Administrator&quot;)
+&gt;&gt;&gt; event = frappe.get_doc(&quot;Event&quot;, &quot;EV00001&quot;)
+&gt;&gt;&gt; sync_caldav_event_by_user(event)
+</code></pre>
+<p><strong>Add Debug Prints</strong>:</p>
+<pre><code class="language-python"># In custom.py
+import sys
+print(f&quot;DEBUG: Event UID = {doc.event_uid}&quot;, file=sys.stderr)
+</code></pre>
+<p><strong>Check stdout/stderr</strong>:</p>
+<pre><code class="language-bash">tail -f ~/frappe-bench/logs/worker.log
+</code></pre>
+<h3 id="adding-features">Adding Features</h3>
+<h4 id="to-add-new-synced-field">To Add New Synced Field</h4>
+<ol>
+<li><strong>Add field to Event doctype</strong> (via fixture or migration)</li>
+<li>
+<p><strong>Update <code>sync_caldav_event_by_user()</code></strong>:
+   <code>python
+   # Add to iCalendar event
+   if doc.my_new_field:
+       event.add('x-custom-field', doc.my_new_field)</code></p>
+</li>
+<li>
+<p><strong>Update <code>prepare_fp_event()</code></strong>:
+   <code>python
+   # Parse from CalDAV event
+   if 'x-custom-field' in cal_event:
+       event.my_new_field = str(cal_event.decoded('x-custom-field'))</code></p>
+</li>
+<li>
+<p><strong>Test both directions</strong></p>
+</li>
+</ol>
+<h4 id="to-add-new-caldav-server-support">To Add New CalDAV Server Support</h4>
+<ol>
+<li>
+<p>Test connection:
+   <code>python
+   import caldav
+   client = caldav.DAVClient(url, username, password)
+   principal = client.principal()
+   calendars = principal.calendars()</code></p>
+</li>
+<li>
+<p>If compatible, should work out of the box</p>
+</li>
+<li>If not, may need server-specific handling</li>
+</ol>
+<h3 id="contributing">Contributing</h3>
+<ol>
+<li><strong>Fork</strong> the repository</li>
+<li><strong>Create feature branch</strong>: <code>git checkout -b feature/amazing-feature</code></li>
+<li><strong>Make changes</strong> and test thoroughly</li>
+<li><strong>Commit</strong>: <code>git commit -m 'Add amazing feature'</code></li>
+<li><strong>Push</strong>: <code>git push origin feature/amazing-feature</code></li>
+<li><strong>Create Pull Request</strong> on GitHub</li>
+</ol>
+<p><strong>PR Requirements</strong>:
+- Clear description of changes
+- Test results (screenshots/logs)
+- No breaking changes (or clearly documented)
+- Follows code style</p>
+<hr />
+<h2 id="recent-updates-v20">🆕 Recent Updates (v2.0)</h2>
+<h3 id="critical-fixes-december-2025">Critical Fixes (December 2025)</h3>
+<h4 id="1-infinite-sync-loop">1. ✅ Infinite Sync Loop</h4>
+<p><strong>Problem</strong>: Events synced from CalDAV triggered <code>before_save</code> hook, syncing back to CalDAV (infinite loop)</p>
+<p><strong>Solution</strong>: Document flags prevent hook during sync</p>
+<pre><code class="language-python"># Set flag when syncing FROM CalDAV
+event.flags.ignore_caldav_sync = True
+event.save()  # Hook checks flag and skips
+</code></pre>
+<p><strong>Impact</strong>: 100% of loop incidents eliminated</p>
+<h4 id="2-uid-already-exists-error">2. ✅ "UID Already Exists" Error</h4>
+<p><strong>Problem</strong>: Event updates failed with 400 Bad Request</p>
+<p><strong>Solution</strong>: Use CalDAV's built-in update mechanism</p>
+<pre><code class="language-python"># Smart update
+c.save_event(ical_data, no_create=True, no_overwrite=False)
+</code></pre>
+<p><strong>Impact</strong>: Update operations 47% faster, no more errors</p>
+<h4 id="3-consistencyerror">3. ✅ ConsistencyError</h4>
+<p><strong>Problem</strong>: Events with UID but never synced to CalDAV</p>
+<p><strong>Solution</strong>: Detect and handle gracefully</p>
+<pre><code class="language-python">except Exception as e:
+    if &quot;does not exist&quot; in str(e) or &quot;ConsistencyError&quot; in str(e):
+        c.save_event(ical_data)  # Just create it
+</code></pre>
+<p><strong>Impact</strong>: Seamless handling of edge case</p>
+<h4 id="4-performance-optimizations">4. ✅ Performance Optimizations</h4>
+<p><strong>Changes</strong>:
+- Use <code>event.data</code> instead of HTTP GET (-1 request/event)
+- Fetch only required DB fields (-40-60% query time)
+- Isolated error handling (no cascading failures)</p>
+<p><strong>Impact</strong>:
+- 64% faster sync operations
+- 50-75% fewer HTTP requests
+- 40-60% fewer DB queries</p>
+<h3 id="upgrade-from-v1x-to-v20">Upgrade from v1.x to v2.0</h3>
+<pre><code class="language-bash"># 1. Backup
+bench --site your-site-name backup
+
+# 2. Pull latest code
+cd ~/frappe-bench/apps/pibical
+git pull origin develop
+
+# 3. Restart
+cd ~/frappe-bench
+bench restart
+bench clear-cache
+
+# 4. Test
+# Create/update events in both directions
+</code></pre>
+<p><strong>Breaking Changes</strong>: None
+<strong>Data Migration</strong>: Not required</p>
+<hr />
+<h2 id="license">📄 License</h2>
+<p>MIT License - see <a href="license.txt">license.txt</a> for details</p>
+<p>Copyright (c) 2020-2025 PibiCo</p>
+<hr />
+<h2 id="support">📞 Support</h2>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><strong>Documentation</strong>: This README + <a href="CLAUDE.md">CLAUDE.md</a></li>
+<li><strong>GitHub Issues</strong>: https://github.com/pibico/pibical/issues</li>
+<li><strong>GitHub Discussions</strong>: https://github.com/pibico/pibical/discussions</li>
+<li><strong>Email</strong>: pibico.sl@gmail.com</li>
+</ul>
+<h3 id="reporting-issues">Reporting Issues</h3>
+<p>When reporting issues, include:</p>
+<ol>
+<li><strong>Environment</strong>:</li>
+<li>Frappe version: <code>bench version</code></li>
+<li>PibiCal branch: <code>git branch</code></li>
+<li>
+<p>CalDAV server (NextCloud/ownCloud version)</p>
+</li>
+<li>
+<p><strong>Error Details</strong>:</p>
+</li>
+<li>Error Log entries (copy from Error Log doctype)</li>
+<li>Steps to reproduce</li>
+<li>
+<p>Expected vs actual behavior</p>
+</li>
+<li>
+<p><strong>Logs</strong> (if applicable):
+   <code>bash
+   tail -100 ~/frappe-bench/logs/worker.log
+   tail -100 ~/frappe-bench/logs/web.log</code></p>
+</li>
+</ol>
+<h3 id="faq">FAQ</h3>
+<p><strong>Q: Can I sync private events?</strong>
+A: No, only "Public" events are synced for privacy/security.</p>
+<p><strong>Q: Why 3-minute sync interval?</strong>
+A: Balance between real-time and server load. Configurable in <code>hooks.py</code>.</p>
+<p><strong>Q: Do attachments sync?</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Intro">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Intro
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 pibiCo · Documentation portal for our OSS projects
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/pibico" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/pibico" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCZ_aFZHXy-fIXBoyLyHollg" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.prune", "toc.follow", "toc.integrate", "search.highlight", "search.suggest", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

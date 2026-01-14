@@ -6,5 +6,5 @@ First and foremost, we are industrial and mining engineers with over 25 years of
 
 - GitHub: [https://github.com/pibico](https://github.com/pibico)
 - LinkedIn: [https://www.linkedin.com/company/pibico](https://www.linkedin.com/company/pibico)
-- YouTube: [https://www.youtube.com/channel/UCZ_aFZHXy-fIXBoyLyHollg](@pibicosl9496)
+- YouTube: [@pibicosl9496](https://www.youtube.com/channel/UCZ_aFZHXy-fIXBoyLyHollg)
 - Contact: proyectos@pibico.es
