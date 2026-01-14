@@ -2,7 +2,7 @@
     font-family: monospace !important;
 }
 .hero {
-  background-image: url("../assets/webform-bg.png");
+  background-image: url("../assets/images/webform-bg.png");
   background-size: cover;
   background-position: center;
   padding: 4rem 2rem;
