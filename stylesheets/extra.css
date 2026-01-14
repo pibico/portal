@@ -3,10 +3,9 @@
 }
 .md-main {
   background-image: linear-gradient(
-      rgba(30, 30, 30, 0.95),
-      rgba(30, 30, 30, 0.95)
-    ),
-    url("./assets/images/webform-bg.png");
+        rgb(30, 33, 50, 0.95),
+        rgba(30, 33, 41, 1)), 
+        url(../assets/images/webform-bg.png);
   background-size: 100vw 90vh;
   background-repeat: no-repeat;
   background-position: top center;
