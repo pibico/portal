@@ -29,12 +29,11 @@ nav:
   - Home: index.md
   - About pibiCo: about.md
   - Projects:
-      - PibiCut:
-          - Intro: projects/pibicut/index.md
-          - Guide: projects/pibicut/guide.md
-      - PibiCal:
-          - Intro: projects/pibical/index.md
-          - Guide: projects/pibical/guide.md
+      - PibiCut Guide: projects/pibicut/guide.md
+      - PibiCal Guide: projects/pibical/guide.md
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   homepage: https://www.pibico.es
