@@ -4,6 +4,8 @@ site_url: https://pibico.github.io/portal/
 
 theme:
   name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
   language: es
   features:
     - navigation.sections      # Sidebar organizado por secciones
@@ -23,11 +25,14 @@ nav:
           - Guía: projects/pibicut/guide.md
 
 extra:
+  homepage: https://www.pibico.es
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pibico
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/pibico
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCZ_aFZHXy-fIXBoyLyHollg  
 
 copyright: >
   © 2026 pibiCo · Documentation portal for our OSS projects

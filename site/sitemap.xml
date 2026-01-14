@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://pibico.github.io/</loc>
+         <loc>https://pibico.github.io/portal/</loc>
          <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://pibico.github.io/about/</loc>
+         <loc>https://pibico.github.io/portal/about/</loc>
          <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://pibico.github.io/projects/pibicut/</loc>
+         <loc>https://pibico.github.io/portal/projects/pibicut/</loc>
          <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://pibico.github.io/projects/pibicut/guide/</loc>
+         <loc>https://pibico.github.io/portal/projects/pibicut/guide/</loc>
          <lastmod>2026-01-13</lastmod>
     </url>
 </urlset>
