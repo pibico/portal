@@ -1,17 +1,12 @@
-# Welcome to the pibiCo Documentation Portal 
-
-
-This is the central documentation portal for our OSS projects.
-
-- [Projects](projects/pibicut/)
-- [About Us](about.md)
+<h1>pibi<span style="color: #4682B4;">Co</span></h1>
+# Open Source Frappe Applications 
 
 <div class="apps">
-    <a href="https://github.com/pibico/pibicut" class="card">
+    <a href="projects/pibicut/" class="card">
         <div class="icon">🔗</div>
         <h2>pibiCut</h2>
         <p>URL shortener with custom codes, click analytics, expiration dates, and styled QR code generation.</p>
-        <span class="badge">Frappe v15</span>
+        <span class="badge" href="https://github.com/pibico/pibicut">Frappe v15</span>
     </a>
 
     <a href="https://github.com/pibico/pibical" class="card">

@@ -6,7 +6,7 @@
         rgb(30, 33, 50, 0.95),
         rgba(30, 33, 41, 1)), 
         url(../assets/images/webform-bg.png);
-  background-size: 100vw 90vh;
+  background-size: 100vw 150vh;
   background-repeat: no-repeat;
   background-position: top center;
   padding: 0 0 0 0;
@@ -16,10 +16,10 @@
 .tagline { font-size: 1.2rem; color: #94a3b8; }
 .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
 .card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 16px;
-    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1vw;
+    padding: 1vw;
     text-decoration: none;
     color: inherit;
     transition: all 0.3s ease;
@@ -29,15 +29,15 @@
     background: rgba(255,255,255,0.1);
     border-color: #4682B4;
 }
-.card .icon { font-size: clamp(0.75rem, 2vw, 0.9rem); padding: 0.4em 0.8em; }
-.card h2 { font-size: clamp(0.9rem, 2.5vw, 1.2rem); }
-.card p { color: #94a3b8; font-size: clamp(0.75rem, 2vw, 1rem); }
+.card .icon { font-size: clamp(0.75vw, 3vw, 3vw); padding: 0 1vw; }
+.card h2 { font-size: clamp(0.9rem, 2.5vw, 1.2rem) !important; margin: 0.5vw 0 0.5vw; }
+.card p { color: #94a3b8; font-size: clamp(0.75rem, 2vw, 0.5vw) !important; }
 .badge {
     display: inline-block;
     background: #4682B4;
     color: #fff;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    margin-top: 15px;
+    padding: 0.2vw 0.5vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+    margin-top: 0.5vw;
 }
