@@ -24,6 +24,12 @@ theme:
 
 plugins:
   - search
+  - optimize
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: custom
+      debug: true
+
 
 nav:
   - Home: index.md

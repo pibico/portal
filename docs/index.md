@@ -1,5 +1,5 @@
 <h1>pibi<span style="color: #4682B4;">Co</span></h1>
-# Open Source Frappe Applications 
+# Open Source Applications for Frappe framework
 
 <div class="apps">
     <a href="apps/pibicut/" class="card">
