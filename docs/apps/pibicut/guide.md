@@ -1,4 +1,4 @@
-# PibiCut Guide
+# pibiCut Guide
 
 PibiCut is a very Simple Frappe App to produce Shorten URLs on a Frappe Server and at the same time a QR Code to the short URL.
 

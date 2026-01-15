@@ -1,6 +1,7 @@
-# PibiCal
+# [pibiCal](guide.md)
 
-Welcome to the PibiCal documentation.
+## Welcome to the app **pibiCal**
+### CalDAV integration between **Frappe/ERPNext and NextCloud** for calendar synchronization
 
-## Contents
-- [Project Guide](guide.md)
+- [pibiCal Guide](guide.md)
+- [pibiCal Code and download](https://github.com/pibico/pibical)

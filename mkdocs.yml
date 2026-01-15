@@ -29,8 +29,19 @@ nav:
   - Home: index.md
   - About pibiCo: about.md
   - Apps:
-      - pibiCut Guide: apps/pibicut/guide.md
-      - pibiCal Guide: apps/pibical/guide.md
+      - pibiCut: apps/pibicut/index.md
+      - pibiCal: apps/pibical/index.md
+      - pibiCard: apps/pibicard/index.md
+      - pibiDAV: apps/pibidav/index.md
+      - pibiDesk: apps/pibidesk/index.md
+      - pibiOffline: apps/pibioffline/index.md
+      - Guides:
+        - pibiCut: apps/pibicut/guide.md
+        - pibiCal: apps/pibical/guide.md
+        - pibiCard: apps/pibicard/guide.md
+        - pibiDAV: apps/pibidav/guide.md
+        - pibiDesk: apps/pibidesk/guide.md
+        - pibiOffline: apps/pibioffline/guide.md
 
 extra_css:
   - stylesheets/extra.css

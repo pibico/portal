@@ -1,4 +1,4 @@
-# PibiCal
+# pibiCal Guide
 
 **Bidirectional Calendar Synchronization for Frappe/ERPNext and CalDAV Servers**
 
