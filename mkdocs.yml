@@ -28,9 +28,9 @@ plugins:
 nav:
   - Home: index.md
   - About pibiCo: about.md
-  - Projects:
-      - PibiCut Guide: projects/pibicut/guide.md
-      - PibiCal Guide: projects/pibical/guide.md
+  - Apps:
+      - pibiCut Guide: apps/pibicut/guide.md
+      - pibiCal Guide: apps/pibical/guide.md
 
 extra_css:
   - stylesheets/extra.css
