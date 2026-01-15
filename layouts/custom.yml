@@ -5,7 +5,7 @@ layers:
   - size: { width: 144, height: 144 }
     offset: { x: 20, y: 20 }
     icon:
-      value: assets/images/favicon
+      value: bootstrap/pibico-card
   - size: { width: 950, height: 310 }
     offset: { x: 150, y: 150 }
     typography:
