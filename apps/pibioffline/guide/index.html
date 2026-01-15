@@ -1,0 +1,2067 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="pibiCo documentation portal for OSS projects">
+      
+      
+      
+        <link rel="canonical" href="https://pibico.github.io/portal/apps/pibioffline/guide/">
+      
+      
+        <link rel="prev" href="../../pibidesk/guide/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>pibiOffline - pibiCo - Documentation portal</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pibioffline-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.pibico.es" title="pibiCo - Documentation portal" class="md-header__button md-logo" aria-label="pibiCo - Documentation portal" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            pibiCo - Documentation portal
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              pibiOffline
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  About pibiCo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../pibicut/" class="md-tabs__link">
+          
+  
+  
+  Apps
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.pibico.es" title="pibiCo - Documentation portal" class="md-nav__button md-logo" aria-label="pibiCo - Documentation portal" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    pibiCo - Documentation portal
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About pibiCo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibicut/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiCut
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiCal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibicard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiCard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibidav/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiDAV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibidesk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiDesk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiOffline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibicut/guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiCut
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibical/guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiCal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibicard/guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiCard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibidav/guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiDAV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pibidesk/guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiDesk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiOffline
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pibiOffline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="System Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frontend-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-master-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Create Master Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Create Master Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pl-person-employee-personal-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Person (Employee Personal Info)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pl-organization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Organization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pl-employee-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Employee Assignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-configure-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Configure Workspace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-set-up-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Set Up Permissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#employee-assignment-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Employee Assignment Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#offline-cache-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline Cache Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-employees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Employees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-administrators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Administrators
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offline-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline Functionality
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Offline Functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Works
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#doctypes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DocTypes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DocTypes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pl-person" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Person
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pl-organization_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Organization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pl-employee-assignment_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Employee Assignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pl-resource-attendance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Resource Attendance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pl-work-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL Work Session
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attendance-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attendance APIs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Attendance APIs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sync_attendance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sync_attendance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_resource_by_qr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_resource_by_qr
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_active_work_session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_active_work_session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_user_accessible_resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_user_accessible_resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced APIs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced APIs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process_qr_with_opencv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        process_qr_with_opencv
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security &amp; Permissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security &amp; Permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permission-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permission Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#browser-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser Permissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../pibicut/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Apps
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../pibicut/guide/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Guides
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="pibioffline-guide">pibiOffline Guide</h1>
+<p><strong>PWA for Work Attendance</strong></p>
+<p>A Progressive Web App (PWA) for QR code-based attendance tracking with offline capabilities, designed for organizations managing field employees and remote workers.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#system-architecture">System Architecture</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#offline-functionality">Offline Functionality</a></li>
+<li><a href="#doctypes">DocTypes</a></li>
+<li><a href="#api-reference">API Reference</a></li>
+<li><a href="#security--permissions">Security &amp; Permissions</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+<li><a href="#contributing">Contributing</a></li>
+</ul>
+<h2 id="features">Features</h2>
+<h3 id="core-features">Core Features</h3>
+<ul>
+<li><strong>QR Code Scanning</strong>: High-performance camera-based QR code scanning</li>
+<li><strong>Offline-First Design</strong>: Full functionality without internet connection</li>
+<li><strong>Progressive Web App</strong>: Installable on mobile devices as native app</li>
+<li><strong>Automatic Sync</strong>: Background synchronization when connection restored</li>
+<li><strong>Geolocation Tracking</strong>: Optional GPS location capture for attendance</li>
+<li><strong>Photo Verification</strong>: Optional photo requirement for check-ins</li>
+<li><strong>Multi-Organization Support</strong>: Manage employees across different organizations</li>
+</ul>
+<h3 id="advanced-features">Advanced Features</h3>
+<ul>
+<li><strong>Hybrid QR Detection</strong>: Client-side jsQR with server-side OpenCV fallback</li>
+<li><strong>Smart Caching</strong>: Automatic caching of accessible employee data</li>
+<li><strong>Session Management</strong>: Tracks work sessions with check-in/out pairs</li>
+<li><strong>Permission-Based Access</strong>: Role-based visibility of employee data</li>
+<li><strong>Real-time Status</strong>: Visual indicators for online/offline status</li>
+<li><strong>Batch Sync</strong>: Efficient synchronization of multiple offline records</li>
+</ul>
+<h2 id="system-architecture">System Architecture</h2>
+<h3 id="frontend-components">Frontend Components</h3>
+<ul>
+<li><strong>Custom HTML Block</strong>: Isolated workspace implementation</li>
+<li><strong>IndexedDB Storage</strong>: Local database for offline data</li>
+<li><strong>Service Worker</strong>: PWA functionality and caching</li>
+<li><strong>WebRTC Camera</strong>: Direct camera access for QR scanning</li>
+</ul>
+<h3 id="backend-components">Backend Components</h3>
+<ul>
+<li><strong>Frappe Framework</strong>: Core application platform</li>
+<li><strong>Custom DocTypes</strong>: Employee, attendance, and session management</li>
+<li><strong>REST APIs</strong>: Attendance sync and data retrieval</li>
+<li><strong>OpenCV Integration</strong>: Advanced QR code processing</li>
+</ul>
+<h3 id="data-flow">Data Flow</h3>
+<ol>
+<li><strong>Check-in Process</strong>:</li>
+<li>QR scan → Employee validation → Location/Photo capture → Local storage → Server sync</li>
+<li><strong>Check-out Process</strong>:</li>
+<li>QR scan → Session lookup → Location capture → Session completion → Server sync</li>
+<li><strong>Offline Queue</strong>:</li>
+<li>Failed syncs → IndexedDB queue → Retry on connection → Update status</li>
+</ol>
+<h2 id="installation">Installation</h2>
+<pre><code class="language-bash"># Get the app
+bench get-app https://github.com/pibi/pibiOffline
+
+# Install on your site
+bench --site your-site.com install-app pibioffline
+
+# Run migrations
+bench --site your-site.com migrate
+
+# Clear cache
+bench --site your-site.com clear-cache
+
+# Optional: Install OpenCV for enhanced QR detection
+pip install opencv-python numpy
+</code></pre>
+<h2 id="setup">Setup</h2>
+<h3 id="1-create-master-data">1. Create Master Data</h3>
+<h4 id="pl-person-employee-personal-info">PL Person (Employee Personal Info)</h4>
+<pre><code>1. Go to PL Person list
+2. Create records with:
+   - Full Name
+   - User (optional - links to system user)
+   - Other personal details
+</code></pre>
+<h4 id="pl-organization">PL Organization</h4>
+<pre><code>1. Go to PL Organization list
+2. Create organization records with:
+   - Organization Name
+   - Organization Code
+   - Address/contact details
+</code></pre>
+<h4 id="pl-employee-assignment">PL Employee Assignment</h4>
+<pre><code>1. Go to PL Employee Assignment list
+2. Create assignments linking person to organization:
+   - Person (link to PL Person)
+   - Organization (link to PL Organization)
+   - Employee Code (unique identifier)
+   - QR Code (auto-generated or manual)
+   - Status (Active/Inactive)
+   - Location Required (checkbox)
+   - Picture Required (checkbox)
+   - User (optional - for direct user access)
+   - Reporting Manager (optional - for hierarchy)
+</code></pre>
+<h3 id="2-configure-workspace">2. Configure Workspace</h3>
+<pre><code>1. Go to Workspace List
+2. Create/edit &quot;pibiOffline&quot; workspace
+3. Add Custom HTML Block named &quot;PL pibiOffline&quot;
+4. Configure block with provided HTML/JS/CSS
+</code></pre>
+<h3 id="3-set-up-permissions">3. Set Up Permissions</h3>
+<p>The app automatically handles permissions based on:
+- <strong>System Manager/HR Manager</strong>: Access to all employees
+- <strong>Regular Users</strong>: Access to:
+  - Their own assignments (via user field)
+  - Employees in their organizations
+  - Employees they manage</p>
+<h2 id="configuration">Configuration</h2>
+<h3 id="employee-assignment-settings">Employee Assignment Settings</h3>
+<pre><code class="language-python"># Location requirement for check-in
+location_required = 1  # Enforces GPS capture
+
+# Photo requirement for check-in  
+picture_required = 1   # Enforces photo capture
+
+# Note: Requirements only apply to check-in, not check-out
+</code></pre>
+<h3 id="offline-cache-settings">Offline Cache Settings</h3>
+<pre><code class="language-javascript">// Auto-cache interval (default: 30 minutes)
+const CACHE_INTERVAL = 30 * 60 * 1000;
+
+// Cached data includes:
+// - Employee assignments accessible to user
+// - Organization details
+// - Person names
+// - QR codes and requirements
+</code></pre>
+<h2 id="usage">Usage</h2>
+<h3 id="for-employees">For Employees</h3>
+<ol>
+<li><strong>First Time Setup</strong>:</li>
+<li>Open pibiOffline workspace while online</li>
+<li>Grant camera and location permissions when prompted</li>
+<li>
+<p>Install as PWA if desired (Add to Home Screen)</p>
+</li>
+<li>
+<p><strong>Daily Check-in</strong>:</p>
+</li>
+<li>Open pibiOffline app</li>
+<li>Click "Scan QR Code"</li>
+<li>Scan your employee QR code</li>
+<li>Take photo if required</li>
+<li>Confirm location if required</li>
+<li>
+<p>View confirmation message</p>
+</li>
+<li>
+<p><strong>Daily Check-out</strong>:</p>
+</li>
+<li>Scan QR code again</li>
+<li>System automatically detects check-out</li>
+<li>View work duration</li>
+<li>Data syncs when online</li>
+</ol>
+<h3 id="for-administrators">For Administrators</h3>
+<ol>
+<li><strong>Monitor Attendance</strong>:</li>
+<li>View PL Resource Attendance list</li>
+<li>Filter by date, employee, organization</li>
+<li>
+<p>Check sync status for offline records</p>
+</li>
+<li>
+<p><strong>Manage Employees</strong>:</p>
+</li>
+<li>Update PL Employee Assignment status</li>
+<li>Configure location/photo requirements</li>
+<li>Assign reporting managers</li>
+<li>
+<p>Link to user accounts</p>
+</li>
+<li>
+<p><strong>View Work Sessions</strong>:</p>
+</li>
+<li>Access PL Work Session records</li>
+<li>See complete check-in/out pairs</li>
+<li>Track work duration and locations</li>
+</ol>
+<h2 id="offline-functionality">Offline Functionality</h2>
+<h3 id="how-it-works">How It Works</h3>
+<ol>
+<li><strong>Initial Cache</strong>:</li>
+<li>On workspace load, caches accessible employees</li>
+<li>Stores in IndexedDB with indexes for fast lookup</li>
+<li>
+<p>Updates every 30 minutes when online</p>
+</li>
+<li>
+<p><strong>Offline Detection</strong>:</p>
+</li>
+<li>Visual indicator shows connection status</li>
+<li>All features remain functional</li>
+<li>
+<p>Data queued for sync</p>
+</li>
+<li>
+<p><strong>Data Storage</strong>:
+   <code>javascript
+   // IndexedDB structure
+   {
+     attendance: {
+       id: auto-increment,
+       qrCode: string,
+       type: 'check-in' | 'check-out',
+       timestamp: ISO string,
+       location: string,
+       latitude: number,
+       longitude: number,
+       photo: base64 string,
+       synced: boolean,
+       localId: unique string
+     },
+     resources: {
+       name: docname,
+       qr_code: string (indexed),
+       person_name: string,
+       organization_name: string,
+       location_required: boolean,
+       picture_required: boolean
+     }
+   }</code></p>
+</li>
+<li>
+<p><strong>Sync Process</strong>:</p>
+</li>
+<li>Automatic on connection restore</li>
+<li>Manual sync button available</li>
+<li>Handles duplicates via localId</li>
+<li>Updates UI on completion</li>
+</ol>
+<h2 id="doctypes">DocTypes</h2>
+<h3 id="pl-person">PL Person</h3>
+<ul>
+<li><strong>Purpose</strong>: Store employee personal information</li>
+<li><strong>Key Fields</strong>: full_name, user, contact details</li>
+<li><strong>Links</strong>: PL Employee Assignment</li>
+</ul>
+<h3 id="pl-organization_1">PL Organization</h3>
+<ul>
+<li><strong>Purpose</strong>: Define organizational units</li>
+<li><strong>Key Fields</strong>: organization_name, code, address</li>
+<li><strong>Links</strong>: PL Employee Assignment</li>
+</ul>
+<h3 id="pl-employee-assignment_1">PL Employee Assignment</h3>
+<ul>
+<li><strong>Purpose</strong>: Link persons to organizations with work details</li>
+<li><strong>Key Fields</strong>:</li>
+<li>person (Link to PL Person)</li>
+<li>organization (Link to PL Organization)</li>
+<li>employee_code (unique)</li>
+<li>qr_code (for scanning)</li>
+<li>status (Active/Inactive)</li>
+<li>location_required (Check field)</li>
+<li>picture_required (Check field)</li>
+<li>user (Link to User - optional)</li>
+<li>reporting_manager (Link - optional)</li>
+</ul>
+<h3 id="pl-resource-attendance">PL Resource Attendance</h3>
+<ul>
+<li><strong>Purpose</strong>: Store individual attendance events</li>
+<li><strong>Key Fields</strong>:</li>
+<li>resource (Link to PL Employee Assignment)</li>
+<li>attendance_type (Check In/Check Out)</li>
+<li>timestamp (Datetime)</li>
+<li>location, latitude, longitude</li>
+<li>photo (Attach Image)</li>
+<li>synced (Check)</li>
+<li>local_id (for deduplication)</li>
+</ul>
+<h3 id="pl-work-session">PL Work Session</h3>
+<ul>
+<li><strong>Purpose</strong>: Track complete work sessions</li>
+<li><strong>Key Fields</strong>:</li>
+<li>employee (Link to PL Employee Assignment)</li>
+<li>work_date (Date)</li>
+<li>check_in_time, check_out_time</li>
+<li>check_in_location, check_out_location</li>
+<li>status (Active/Completed)</li>
+<li>Duration calculated automatically</li>
+</ul>
+<h2 id="api-reference">API Reference</h2>
+<h3 id="attendance-apis">Attendance APIs</h3>
+<h4 id="sync_attendance">sync_attendance</h4>
+<pre><code class="language-python">@frappe.whitelist()
+def sync_attendance(**kwargs):
+    &quot;&quot;&quot;
+    Create/update attendance record
+
+    Args:
+        qr_code: Employee QR code
+        type: 'check-in' or 'check-out'
+        time: Timestamp
+        location: Address string
+        latitude: GPS latitude
+        longitude: GPS longitude
+        local_id: Client-side unique ID
+        photo: Base64 image data
+
+    Returns:
+        {
+            success: boolean,
+            attendance_id: string,
+            employee_name: string,
+            organization_name: string,
+            message: string
+        }
+    &quot;&quot;&quot;
+</code></pre>
+<h4 id="get_resource_by_qr">get_resource_by_qr</h4>
+<pre><code class="language-python">@frappe.whitelist()
+def get_resource_by_qr(qr_code):
+    &quot;&quot;&quot;Get employee details by QR code&quot;&quot;&quot;
+</code></pre>
+<h4 id="get_active_work_session">get_active_work_session</h4>
+<pre><code class="language-python">@frappe.whitelist()
+def get_active_work_session(qr_code):
+    &quot;&quot;&quot;Get today's active session for employee&quot;&quot;&quot;
+</code></pre>
+<h4 id="get_user_accessible_resources">get_user_accessible_resources</h4>
+<pre><code class="language-python">@frappe.whitelist()
+def get_user_accessible_resources():
+    &quot;&quot;&quot;Get all employees accessible to logged-in user&quot;&quot;&quot;
+</code></pre>
+<h3 id="advanced-apis">Advanced APIs</h3>
+<h4 id="process_qr_with_opencv">process_qr_with_opencv</h4>
+<pre><code class="language-python">@frappe.whitelist()
+def process_qr_with_opencv(image_base64):
+    &quot;&quot;&quot;Process difficult QR codes using OpenCV&quot;&quot;&quot;
+</code></pre>
+<h2 id="security-permissions">Security &amp; Permissions</h2>
+<h3 id="permission-model">Permission Model</h3>
+<ol>
+<li><strong>Role-Based Access</strong>:</li>
+<li>System Manager: Full access</li>
+<li>HR Manager: Full access</li>
+<li>
+<p>Regular Users: Limited by assignment</p>
+</li>
+<li>
+<p><strong>Data Visibility</strong>:</p>
+</li>
+<li>Users see their own assignments</li>
+<li>Users see colleagues in same organization</li>
+<li>
+<p>Managers see their reportees</p>
+</li>
+<li>
+<p><strong>Security Features</strong>:</p>
+</li>
+<li>Server-side validation</li>
+<li>Duplicate prevention via local_id</li>
+<li>Photo verification option</li>
+<li>Location verification option</li>
+</ol>
+<h3 id="browser-permissions">Browser Permissions</h3>
+<ul>
+<li><strong>Camera</strong>: Required for QR scanning</li>
+<li><strong>Location</strong>: Required if location_required is set</li>
+<li><strong>Storage</strong>: Required for offline functionality</li>
+</ul>
+<p><strong>Important</strong>: Permissions must be granted while online</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="common-issues">Common Issues</h3>
+<ol>
+<li><strong>"Camera shows black screen"</strong></li>
+<li>Solution: Ensure proper cleanup in stopScanning()</li>
+<li>
+<p>Clear browser cache and reload</p>
+</li>
+<li>
+<p><strong>"Employee not active" in offline mode</strong></p>
+</li>
+<li>Solution: Employee not cached, go online to cache</li>
+<li>
+<p>Check user has access to employee</p>
+</li>
+<li>
+<p><strong>"Location/Camera permission denied"</strong></p>
+</li>
+<li>Solution: Grant permissions while online first</li>
+<li>
+<p>Check browser settings</p>
+</li>
+<li>
+<p><strong>"Unknown column 'ea.user' error"</strong></p>
+</li>
+<li>Solution: Run doctype update in UI</li>
+<li>
+<p>System has backward compatibility</p>
+</li>
+<li>
+<p><strong>Duplicate attendance records</strong></p>
+</li>
+<li>Solution: System uses local_id for deduplication</li>
+<li>Check IndexedDB for corrupted data</li>
+</ol>
+<h3 id="debugging-tools">Debugging Tools</h3>
+<pre><code class="language-javascript">// Check IndexedDB contents
+pibioffline.storage.db
+
+// View cached resources
+await pibioffline.storage.getResourceByQR('EMP001')
+
+// Check unsynced records
+await pibioffline.storage.getUnsyncedAttendance()
+
+// Force sync
+await pibioffline.storage.syncToServer()
+</code></pre>
+<h3 id="contributing">Contributing</h3>
+<p>This app uses <code>pre-commit</code> for code formatting and linting. Please <a href="https://pre-commit.com/#installation">install pre-commit</a> and enable it for this repository:</p>
+<pre><code class="language-bash">cd apps/pibioffline
+pre-commit install
+</code></pre>
+<p>Pre-commit is configured to use the following tools for checking and formatting your code:</p>
+<ul>
+<li>ruff</li>
+<li>eslint</li>
+<li>prettier</li>
+<li>pyupgrade</li>
+</ul>
+<h3 id="license">License</h3>
+<p>mit</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../pibidesk/guide/" class="md-footer__link md-footer__link--prev" aria-label="Previous: pibiDesk">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                pibiDesk
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 pibiCo · Documentation portal for our OSS projects
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/pibico" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/pibico" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCZ_aFZHXy-fIXBoyLyHollg" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.prune", "toc.follow", "toc.integrate", "search.highlight", "search.suggest", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
