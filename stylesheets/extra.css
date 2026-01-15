@@ -12,3 +12,32 @@
   padding: 0 0 0 0;
   border-radius: 1rem;
 }
+
+.tagline { font-size: 1.2rem; color: #94a3b8; }
+.apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 30px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    background: rgba(255,255,255,0.1);
+    border-color: #4682B4;
+}
+.icon { font-size: 3rem; margin-bottom: 20px; }
+.card h2 { font-size: 1.5rem; margin-bottom: 10px; }
+.card p { color: #94a3b8; line-height: 1.6; }
+.badge {
+    display: inline-block;
+    background: #4682B4;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    margin-top: 15px;
+}
