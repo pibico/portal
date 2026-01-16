@@ -1,9 +1,9 @@
 .language-mermaid {
     font-family: monospace !important;
 }
-[data-md-color-scheme="pibico"] {
-  --md-primary-fg-color:               hsla(#4682B4, 1);
-  --md-primary-fg-color--light:        hsla(#68bbff, 1);
+[data-md-color-scheme="pibico"] { 
+  --md-primary-fg-color:               hsla(#2f3c87, 1);
+  --md-primary-fg-color--light:        hsla(#4682B4, 1);
   --md-primary-fg-color--dark:         hsla(#101d27, 1);
   --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
   --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
@@ -59,8 +59,8 @@
 }
 .md-main {
   background-image: linear-gradient(
-        rgb(12, 12, 74, 0.95),
-        rgba(12, 12, 65, 1)), 
+        rgb(12, 26, 74, 0.95),
+        rgba(12, 26, 65, 1)), 
         url(../assets/images/webform-bg.png);
   background-size: 100vw 150vh;
   background-repeat: no-repeat;
