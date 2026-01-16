@@ -4,7 +4,11 @@
 [data-md-color-scheme="pibico"] {
   --md-primary-fg-color:        #4682B4;
   --md-primary-fg-color--light: #68bbff;
-  --md-primary-fg-color--dark:  #132330;
+  --md-primary-fg-color--dark:  #101d27;
+  --md-primary-bg-color:              #203b50;
+  --md-primary-bg-color--light: #2a4c66;  
+  --md-footer-bg-color: #162938;
+  --md-footer-bg-color--dark: #101d27;
 }
 .md-main {
   background-image: linear-gradient(
