@@ -1,6 +1,11 @@
 .language-mermaid {
     font-family: monospace !important;
 }
+[data-md-color-scheme="pibico"] {
+  --md-primary-fg-color:        #4682B4;
+  --md-primary-fg-color--light: #68bbff;
+  --md-primary-fg-color--dark:  #132330;
+}
 .md-main {
   background-image: linear-gradient(
         rgb(30, 33, 50, 0.95),
