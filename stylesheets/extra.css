@@ -2,13 +2,16 @@
     font-family: monospace !important;
 }
 [data-md-color-scheme="pibico"] {
-  --md-primary-fg-color:        #4682B4;
-  --md-primary-fg-color--light: #68bbff;
-  --md-primary-fg-color--dark:  #101d27;
-  --md-primary-bg-color:              #203b50;
-  --md-primary-bg-color--light: #2a4c66;  
-  --md-footer-bg-color: #162938;
-  --md-footer-bg-color--dark: #101d27;
+  --md-primary-fg-color:               hsla(#4682B4, 1);
+  --md-primary-fg-color--light:        hsla(#68bbff, 1);
+  --md-primary-fg-color--dark:         hsla(#101d27, 1);
+  --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+  --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+
+  --md-accent-fg-color:                hsla(#8fcafa, 1);
+  --md-accent-fg-color--transparent:   hsla(#8fcafa, 0.1);
+  --md-accent-bg-color:                hsla(0, 0%, 100%, 1);
+  --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
 }
 .md-main {
   background-image: linear-gradient(
