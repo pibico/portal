@@ -1,1 +1,16 @@
-{}
+{
+  "assets/images/social/about.png": "cc3bb6d914d617da9eabc713b513c03b2651cec1",
+  "assets/images/social/apps/pibical/guide.png": "ef41751b961ecf34bae4bb3e359a120a560f2074",
+  "assets/images/social/apps/pibical/index.png": "ef41751b961ecf34bae4bb3e359a120a560f2074",
+  "assets/images/social/apps/pibicard/guide.png": "eaea9a429b5273f65916893454238ba22612e115",
+  "assets/images/social/apps/pibicard/index.png": "eaea9a429b5273f65916893454238ba22612e115",
+  "assets/images/social/apps/pibicut/guide.png": "8de48c7de5c2a2335b27d1047e8344bffa847cda",
+  "assets/images/social/apps/pibicut/index.png": "8de48c7de5c2a2335b27d1047e8344bffa847cda",
+  "assets/images/social/apps/pibidav/guide.png": "4bbf4e87d1b2a57a8bb1301d5aca5f8a195b4db0",
+  "assets/images/social/apps/pibidav/index.png": "4bbf4e87d1b2a57a8bb1301d5aca5f8a195b4db0",
+  "assets/images/social/apps/pibidesk/guide.png": "bea9fea17ac66e6caa0d728f0acb6745133bdd5e",
+  "assets/images/social/apps/pibidesk/index.png": "bea9fea17ac66e6caa0d728f0acb6745133bdd5e",
+  "assets/images/social/apps/pibioffline/guide.png": "003af432f2f8e7ce39c7e2502cddb17f6cf13f02",
+  "assets/images/social/apps/pibioffline/index.png": "003af432f2f8e7ce39c7e2502cddb17f6cf13f02",
+  "assets/images/social/index.png": "05941e2eec82864c4d6ca1e1b825f8b75350c667"
+}

@@ -1,5 +1,5 @@
 site_name: pibiCo - Documentation portal
-site_description: pibiCo documentation portal for OSS projects
+site_description: Open Source Applications for Frappe framework
 site_url: https://pibico.github.io/portal/
 
 theme:
@@ -9,8 +9,8 @@ theme:
   language: en
   palette:
     scheme: slate
-    primary: black
-    accent: light blue
+    primary: pibico
+    accent: pibico
   features:
     - navigation.tabs          # Navegación tipo pestañas
     - navigation.tabs.sticky   # Tabs visibles siempre
@@ -24,11 +24,7 @@ theme:
 
 plugins:
   - search
-  - social:
-      cards_layout_dir: layouts
-      cards_layout: custom
-      debug: true
-
+  - social
 
 nav:
   - Home: index.md
@@ -71,4 +67,3 @@ markdown_extensions:
 
 copyright: >
   © 2026 pibiCo · Documentation portal for our OSS projects
-  
