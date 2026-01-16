@@ -25,6 +25,7 @@ theme:
 plugins:
   - search
   - social
+  - blog
 
 nav:
   - Home: index.md
@@ -43,6 +44,8 @@ nav:
         - pibiDAV: apps/pibidav/guide.md
         - pibiDesk: apps/pibidesk/guide.md
         - pibiOffline: apps/pibioffline/guide.md
+  - Blog:
+    - blog/index.md
 
 extra_css:
   - stylesheets/extra.css
