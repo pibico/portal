@@ -1,11 +1,13 @@
 ---
+title: Vision
 date: 2026-01-15
-authors:
-  - pibico
+authors: [pibico]
+description: >
+  We drive business growth with innovation and open source software
 categories:
-  - pibiCo
-  - vision
+  - General
 ---
+
 
 # We drive business growth with innovation and open source software
 

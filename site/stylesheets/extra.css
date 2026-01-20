@@ -2,7 +2,7 @@
     font-family: monospace !important;
 }
 [data-md-color-scheme="pibico"] { 
-  --md-primary-fg-color:               hsla(#202a60, 1);
+  --md-primary-fg-color:               hsla(#171d44, 1);
   --md-primary-fg-color--light:        hsla(#4682B4, 1);
   --md-primary-fg-color--dark:         hsla(#101d27, 1);
   --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
