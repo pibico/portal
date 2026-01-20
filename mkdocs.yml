@@ -8,8 +8,8 @@ theme:
   favicon: assets/images/favicon.ico
   language: en
   palette:
-    scheme: slatepibico
-    primary: pibico
+    scheme: slate
+    primary: custom
     accent: pibico
   features:
     - navigation.tabs          # Navegación tipo pestañas
