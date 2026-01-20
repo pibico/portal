@@ -102,3 +102,6 @@
     font-size: 1vw;
     margin-top: 0.5vw;
 }
+header {
+    background-color: #1d2353 !important;
+}
