@@ -103,5 +103,5 @@
     margin-top: 0.5vw;
 }
 header {
-    background-color: hsl(var(--md-hue) 77.68% 8.95% / 97%) !important;
+    background-color: rgba(11, 31, 89, 1) !important;
 }
