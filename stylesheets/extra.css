@@ -2,19 +2,12 @@
     font-family: monospace !important;
 }
 :root  > * { 
-  --md-primary-fg-color:               hsla(#262f6e, 1);
+  --md-primary-fg-color:               hsla(#2e3986, 1);
   --md-primary-fg-color--light:        hsla(#4682B4, 1);
   --md-primary-fg-color--dark:         hsla(#101d27, 1);
-  --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
-  --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
-
-  --md-accent-fg-color:                hsla(#8fcafa, 1);
-  --md-accent-fg-color--transparent:   hsla(#8fcafa, 0.1);
-  --md-accent-bg-color:                hsla(0, 0%, 100%, 1);
-  --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
 }
 [data-md-color-scheme="pibico"] { 
-  --md-primary-fg-color:               hsla(#262f6e, 1);
+  --md-primary-fg-color:               hsla(#2e3986, 1);
   --md-primary-fg-color--light:        hsla(#4682B4, 1);
   --md-primary-fg-color--dark:         hsla(#101d27, 1);
   --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
