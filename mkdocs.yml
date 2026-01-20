@@ -8,7 +8,7 @@ theme:
   favicon: assets/images/favicon.ico
   language: en
   palette:
-    scheme: slate
+    scheme: slatepibico
     primary: pibico
     accent: pibico
   features:
