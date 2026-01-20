@@ -103,5 +103,5 @@
     margin-top: 0.5vw;
 }
 header {
-    background-color: #2e3986 !important;
+    background-color: hsl(var(--md-hue) 77.68% 8.95% / 87%) !important;
 }
